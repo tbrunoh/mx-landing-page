@@ -1,28 +1,24 @@
-This project was generated from [create.xyz](https://create.xyz/).
+# MaraX Ventures
 
-It is a [Next.js](https://nextjs.org/) project built on React and TailwindCSS.
+> The website for MaraX Ventures, an investment firm partnering with entrepreneurs building technology driven platforms and industries.
 
-## Getting Started
+## What it does
 
-First, run the development server:
+Presents the firm and handles four inbound flows: learn more requests, general contact, founder pitch submissions and meeting requests, each delivered as a formatted email.
+
+## Quickstart
 
 ```bash
+git clone https://github.com/tbrunoh/mx-landing-page.git
+cd mx-landing-page
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Stack
 
-You can start editing the code in `src`. The page auto-updates as you edit the file.
+Next.js, React, Tailwind CSS, served by nginx in Docker.
 
-To learn more, take a look at the following resources:
+---
 
-- [React Documentation](https://react.dev/) - learn about React
-- [TailwindCSS Documentation](https://tailwindcss.com/) - learn about TailwindCSS
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<sub>Maintained by <a href="https://github.com/tbrunoh">Tom Bruno</a>.</sub>
